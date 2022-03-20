@@ -1,0 +1,1 @@
+Currently Irugar exists only as a .tff font. I am working on .py program that will scan .txt file and output a png file with properly formatted irugar language.

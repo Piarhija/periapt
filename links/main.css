@@ -1,0 +1,123 @@
+body {
+	background: #fdfdfd;
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	font-weight: 500;
+	line-height: 1.5em;
+	font-size: 14px;
+	
+}
+
+
+
+.irugar{
+    font-family: 'irugar', Arial;
+    }
+a {
+	color: palevioletred;
+	text-decoration-color: mediumvioletred;
+	
+}
+main a:hover{
+	background-color: black;
+	color: white!important;
+	text-decoration-color: black!important;
+}
+nav a:hover{
+	background-color: black;
+	color: white!important;
+	text-decoration-color: black!important;
+}
+a:visited {
+	color: rgb(95, 55, 68);
+	text-decoration-color: whitesmoke;
+	
+}
+main {
+	float: left;
+	width: 55%;
+	padding: 0 5% 5%;
+}
+main img{
+	max-width: 50%;
+	
+}
+
+aside {
+	float: right;
+	width: 25%;
+	padding: 0% 5% 5% 0;
+	
+	
+}
+figure {
+  margin: 30px 0;
+}
+figcaption {
+  font-style: italic;
+}
+nav {padding:5% 5% 0 5%;width:90%;clear:both;}
+footer {padding:5%;width:90%;clear:both;}
+aside div {clear:both;padding-bottom:30px;}
+ol {padding-left: 16px;}
+h3 {text-transform: uppercase;font-weight: 300;}
+h1 {text-transform: uppercase;font-weight: 300;}
+h4 {color: palevioletred;}
+ul {list-style-type:none;margin:0 0 30px;padding:0;width:100%;}
+aside div ul {margin:0;}
+ul li:before {content: "·";display: inline;position: relative;left: -5px;}
+ul li {padding-left: 10px;text-indent: -5px;}
+.images ul {clear: both;}
+.images ul li {padding-left: 0;float: left;text-indent: 0;}
+.images ul li:before {display:none;}
+.images ul img {width:120px;padding-right:10px;}
+@media (max-width:600px){
+	body {background:#fdfdfd;}
+	main,aside {float:none;width:90%}
+	main {padding:0 5%;}
+	aside {padding:0 5%;}
+    footer {padding:5%;width:90%;clear:both;}
+}
+
+
+body code[class*="language-"],
+body pre[class*="language-"] {
+	color: #ccc;
+	font-family: monospace;
+	font-size:0.9em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	tab-size: 1;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  overflow: auto;
+  display: block;
+  padding:1em;
+  margin:2em 0;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #4d4d4d;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	white-space: normal;
+}
+
+@font-face {
+  font-family: 'irugar';
+  font-style: normal;
+  font-weight: 400;
+  src: local('irugar'), local('irugar-Regular'), url(irugar.woff) format('woff');
+}
