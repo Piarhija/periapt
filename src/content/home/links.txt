@@ -1,2 +1,2 @@
-https://mastodon.lol/web/accounts/107875147640037030,mastodon
-https://github.com/Piarchy,@git
+https://mastodon.lol/web/accounts/107875147640037030,Mastodon
+https://github.com/Piarchy,Github
