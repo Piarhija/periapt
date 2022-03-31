@@ -41,7 +41,9 @@ main {
 	padding: 0 5% 5%;
 }
 main img{
-	max-width: 50%;
+	width: 100%;
+	padding-bottom: 10px;
+	
 	
 }
 
@@ -84,7 +86,7 @@ ul li {padding-left: 10px;text-indent: -5px;}
 
 body code[class*="language-"],
 body pre[class*="language-"] {
-	color: #ccc;
+	color: rgb(255, 255, 255);
 	font-family: monospace;
 	font-size:0.9em;
 	text-align: left;
@@ -107,7 +109,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #4d4d4d;
+	background: #2a2a2a;
 }
 
 /* Inline code */
