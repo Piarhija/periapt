@@ -1,0 +1,30 @@
+<!doctype html> <html lang='en'> <head> <meta charset='utf-8'> <meta name='viewport' content='width=device-width,initial-scale=1'> <link rel='alternate' type='application/rss+xml' title='RSS Feed' href='https://tendigits.space/feed.xml' /> <link rel='stylesheet' type='text/css' href='../links/main.css?c=20220123'> <link rel="shortcut icon" type="image/png" href="../favicon.png"/> <title>732</title><meta name='description' content='732 processing' /> </head> <body><nav class='sitenav'> <a href='home.html' title='Homepage of this site'>Home</a> <a href='about.html' title='About Piarchy'>About</a> <a href='now.html' title='Current projects'>Now</a> <a href='index.html' title='List of all topic pages'>Index</a> </nav><main><h1>732</h1>
+<p>732 generates a fractal like image. It is just a simple sript that draws multiple circles in a line and rotates them. I dont know why, but 732 gives me the best output.
+</p>
+<pre class="language-java"><code class="language-java">
+    float steps = 2402;
+  
+    void setup() {
+      size(600, 600);
+      background(0);
+      stroke(255);
+      fill(0);
+      frameRate(1);
+      smooth();
+    } 
+    
+    void draw() {
+      float osc = 100;
+      translate(width/2, height/2);
+      for  (int i = 1; i < steps; i++) {
+          rotate(732);
+          circle( (width/steps) * i, 0, (width/steps) * i + osc);
+        osc += random(-10, 10);
+      }
+      saveFrame(); 
+    }
+</code></pre>
+
+<img src="../assets/img/screen-0013.tif">
+<img src="../assets/img/screen-0024.tif">
+<img src="../assets/img/screen-0030.tif"></main><aside><div class='related'><h3>related</h3><ul></ul></div><div class='notes'><h3>notes</h3><ul></ul></div><div class='log'><h3>log</h3><ul></ul></div><div class='links'><h3>links</h3><ul></ul></div><div class='images'><h3>images</h3><ul></ul></div></aside><footer>Piarchy/Periapt © 2022 <br> <a class="irugar" > <script language="Javascript"> document.write('<small><i>' + document.lastModified + '</i></small>'); </script> </a> </footer> </main></body></html>
